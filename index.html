@@ -3,8 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Matheus Silva | Treino e musculação em Americana-SP</title>
-<meta name="description" content="Matheus Silva: conteúdo de treino e musculação direto de Americana-SP. Acompanhe no Instagram @0imatheus_.">
+<title>Matheus Silva | Personal Trainer em Americana-SP</title>
+<meta name="description" content="Matheus Silva, personal trainer em Americana-SP. Treino individual de musculação com acompanhamento. Fale pelo Instagram @0imatheus_.">
+<link rel="icon" href="img/logo.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;600;800&display=swap" rel="stylesheet">
@@ -12,64 +13,92 @@
 </head>
 <body class="is-loading">
 <div class="intro" aria-hidden="true">
-  <div class="intro__mark"><span>M</span><span>S</span></div>
-  <div class="intro__bar"></div>
+  <svg class="intro__logo" viewBox="0 0 200 200" fill="none">
+    <circle class="ring" cx="100" cy="100" r="92" stroke="#0c0c0c" stroke-width="8"/>
+    <g fill="#0c0c0c">
+      <rect class="plate p-l1" x="34" y="70" width="14" height="60" rx="3"/>
+      <rect class="plate p-l2" x="50" y="78" width="12" height="44" rx="3"/>
+      <rect class="bar" x="62" y="95" width="76" height="10"/>
+      <rect class="plate p-r2" x="138" y="78" width="12" height="44" rx="3"/>
+      <rect class="plate p-r1" x="152" y="70" width="14" height="60" rx="3"/>
+    </g>
+    <text class="word w1" x="100" y="64" text-anchor="middle" font-family="Anton, Impact, sans-serif" font-size="34" fill="#0c0c0c" letter-spacing="2">MS</text>
+    <text class="word w2" x="100" y="158" text-anchor="middle" font-family="Archivo, Arial, sans-serif" font-weight="800" font-size="15" fill="#0c0c0c" letter-spacing="3">PERSONAL</text>
+  </svg>
 </div>
 
 <header class="top">
-  <a href="#inicio" class="logo"><b>MS</b> Matheus Silva</a>
-  <a class="btn btn--sm" href="https://www.instagram.com/0imatheus_/" target="_blank" rel="noopener">Seguir</a>
+  <a href="#inicio" class="logo"><img src="img/logo.svg" alt="" width="40" height="40"><span>Matheus Silva<small>Personal Trainer</small></span></a>
+  <nav class="nav">
+    <a href="#metodo">Método</a>
+    <a href="#treinos">Treinos</a>
+  </nav>
+  <a class="btn btn--sm" href="https://ig.me/m/0imatheus_" target="_blank" rel="noopener">Agendar</a>
 </header>
 
 <main>
   <section class="hero" id="inicio">
     <div class="hero__text">
-      <p class="tag">📍 Americana · SP</p>
-      <h1>Treino<br>sério,<br><em>sem atalho.</em></h1>
-      <p class="lead">Rotina de academia, dicas de musculação e os erros que travam a sua evolução, mostrados de verdade no dia a dia.</p>
+      <p class="tag">Personal Trainer · Americana-SP</p>
+      <h1><span>Seu treino</span><span>com quem</span><span class="hl">te acompanha.</span></h1>
+      <p class="lead">Treino de musculação montado para você, com correção de execução e acompanhamento da evolução. Sem treino genérico e sem os erros que travam o resultado.</p>
       <div class="cta">
-        <a class="btn" href="https://www.instagram.com/0imatheus_/" target="_blank" rel="noopener">Ver no Instagram</a>
-        <a class="btn btn--ghost" href="#conteudo">Ver conteúdo</a>
+        <a class="btn" href="https://ig.me/m/0imatheus_" target="_blank" rel="noopener">Quero treinar com o Matheus</a>
+        <a class="btn btn--ghost" href="#metodo">Como funciona</a>
       </div>
     </div>
-    <figure class="hero__img"><img src="img/p6.jpg" alt="Matheus Silva treinando na academia" width="360" height="640"></figure>
+    <figure class="hero__img">
+      <video src="video/treino1.mp4" poster="video/treino1.jpg" autoplay muted loop playsinline aria-label="Matheus Silva treinando na academia"></video>
+      <figcaption>+1.300 seguidores acompanhando os treinos</figcaption>
+    </figure>
   </section>
 
   <div class="strip" aria-hidden="true">
-    <span>Musculação</span><span>Rotina</span><span>Evolução</span><span>Disciplina</span><span>Musculação</span><span>Rotina</span><span>Evolução</span><span>Disciplina</span>
+    <div class="strip__track">
+      <span>Hipertrofia</span><span>Execução</span><span>Constância</span><span>Evolução</span>
+      <span>Hipertrofia</span><span>Execução</span><span>Constância</span><span>Evolução</span>
+    </div>
   </div>
 
-  <section class="about">
-    <h2>Quem é</h2>
-    <div class="about__grid">
-      <img src="img/perfil.jpg" alt="Foto de perfil de Matheus Silva" width="150" height="150">
-      <p>Matheus Silva compartilha no <a href="https://www.instagram.com/0imatheus_/" target="_blank" rel="noopener">@0imatheus_</a> a rotina de treino, a consistência de quem está na academia todo dia e conteúdos como <strong>"5 erros comuns que te impedem de evoluir"</strong>. Já são mais de 1.300 pessoas acompanhando.</p>
+  <section class="metodo" id="metodo">
+    <p class="kicker">Como funciona</p>
+    <h2>Do primeiro contato<br>ao resultado</h2>
+    <ol class="steps">
+      <li><b>01</b><h3>Conversa</h3><p>Você conta seu objetivo, sua rotina e seu histórico de treino pelo Instagram.</p></li>
+      <li><b>02</b><h3>Treino sob medida</h3><p>O Matheus monta a divisão de treino de acordo com o seu nível e com o tempo que você tem.</p></li>
+      <li><b>03</b><h3>Execução certa</h3><p>Foco na técnica de cada exercício, para evoluir carga com segurança e sem lesão.</p></li>
+      <li><b>04</b><h3>Acompanhamento</h3><p>Ajustes conforme você evolui, para o treino não estagnar.</p></li>
+    </ol>
+  </section>
+
+  <section class="sobre">
+    <img src="img/perfil.jpg" alt="Foto de Matheus Silva" width="150" height="150">
+    <div>
+      <p class="kicker">Quem vai te treinar</p>
+      <h2>Matheus Silva</h2>
+      <p>Personal trainer em Americana-SP. No Instagram ele mostra a rotina de academia e explica, sem rodeio, os erros comuns que impedem a evolução de quem treina todo dia.</p>
     </div>
   </section>
 
-  <section class="feed" id="conteudo">
-    <h2>Do feed</h2>
+  <section class="treinos" id="treinos">
+    <p class="kicker">Na academia</p>
+    <h2>Treinos e dicas</h2>
     <div class="grid">
-      <a class="card is-video" href="https://www.instagram.com/0imatheus_/reel/DeS22fENZOv/" target="_blank" rel="noopener"><img src="img/p1.jpg" alt="Reel de treino" loading="lazy" width="360" height="640"></a>
-      <a class="card is-video" href="https://www.instagram.com/0imatheus_/reel/DcHI5VDz2aT/" target="_blank" rel="noopener"><img src="img/p6.jpg" alt="Reel: 5 erros comuns que te impedem de evoluir" loading="lazy" width="360" height="640"></a>
-      <a class="card is-video" href="https://www.instagram.com/0imatheus_/reel/Dc1uHgWz2fX/" target="_blank" rel="noopener"><img src="img/p4.jpg" alt="Reel na academia" loading="lazy" width="360" height="640"></a>
-      <a class="card" href="https://www.instagram.com/0imatheus_/p/DdXM3FDnyYC/" target="_blank" rel="noopener"><img src="img/p3.jpg" alt="Post de Matheus Silva" loading="lazy" width="512" height="640"></a>
-      <a class="card" href="https://www.instagram.com/0imatheus_/p/DcuPS6ZHwLN/" target="_blank" rel="noopener"><img src="img/p5.jpg" alt="Post de Matheus Silva" loading="lazy" width="640" height="640"></a>
-      <a class="card" href="https://www.instagram.com/0imatheus_/p/Da_cjSbH_zv/" target="_blank" rel="noopener"><img src="img/p8.jpg" alt="Post de Matheus Silva" loading="lazy" width="480" height="640"></a>
-      <a class="card is-video" href="https://www.instagram.com/0imatheus_/reel/DS3bfV-jeL-/" target="_blank" rel="noopener"><img src="img/p11.jpg" alt="Reel de Matheus Silva" loading="lazy" width="360" height="640"></a>
-      <a class="card" href="https://www.instagram.com/0imatheus_/p/DIwML1cNSzA/" target="_blank" rel="noopener"><img src="img/p12.jpg" alt="Post de Matheus Silva" loading="lazy" width="512" height="640"></a>
-    </div>
+      <figure class="card"><video data-src="video/treino2.mp4" poster="video/treino2.jpg" muted loop playsinline preload="none" aria-label="Vídeo: 5 erros comuns que te impedem de evoluir"></video><figcaption>5 erros que travam a evolução</figcaption></figure>
+      <figure class="card"><video data-src="video/treino3.mp4" poster="video/treino3.jpg" muted loop playsinline preload="none" aria-label="Vídeo do dia a dia na academia"></video><figcaption>Dia a dia na academia</figcaption></figure>
+      <figure class="card"><video data-src="video/treino4.mp4" poster="video/treino4.jpg" muted loop playsinline preload="none" aria-label="Vídeo de treino na academia"></video><figcaption>Rotina de treino</figcaption></figure>    </div>
+    <a class="more" href="https://www.instagram.com/0imatheus_/reels/" target="_blank" rel="noopener">Ver todos os vídeos no Instagram →</a>
   </section>
 
   <section class="final">
-    <h2>Bora<br>treinar?</h2>
-    <p>Siga o dia a dia e mande sua dúvida por mensagem no Instagram.</p>
-    <a class="btn btn--dark" href="https://www.instagram.com/0imatheus_/" target="_blank" rel="noopener">@0imatheus_</a>
+    <h2>Bora começar?</h2>
+    <p>Mande uma mensagem com seu objetivo e combine seu horário.</p>
+    <a class="btn btn--dark" href="https://ig.me/m/0imatheus_" target="_blank" rel="noopener">Chamar no Instagram</a>
   </section>
 </main>
 
 <footer class="foot">
-  <p>Matheus Silva · Americana-SP</p>
+  <p>Matheus Silva · Personal Trainer · Americana-SP</p>
   <p>Site por HGS Dev</p>
 </footer>
 <script src="js/main.js"></script>
